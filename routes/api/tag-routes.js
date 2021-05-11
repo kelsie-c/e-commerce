@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
   // create a new tag
   /* req.body should look like this...
     {
-      tag_name: "Accessories",
+      "tag_name": "Accessories",
     }
   */
     try {
